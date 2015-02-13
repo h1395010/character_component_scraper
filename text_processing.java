@@ -11,7 +11,7 @@ public class text_processing
 	{
 		
 		String text; 
-		String input_location = "/home/matthias/Workbench/SUTD/1_February/character_component_scraper/character_component_scraper_items.csv";
+		String input_location = "/home/matthias/Dropbox/Work/Code/character_component_scraper/character_component_scraper_items.csv";
 		BufferedReader br = new BufferedReader(new FileReader( input_location ));
 
 		while ((text = br.readLine()) != null) 
